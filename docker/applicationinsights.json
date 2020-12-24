@@ -1,0 +1,26 @@
+{
+  "role": {
+    "name": "demo-app"
+  },
+  "sampling": {
+    "percentage": 100
+  },
+  "jmxMetrics": [
+  ],
+  "customDimensions": {
+  },
+  "instrumentation": {
+    "logging": {
+      "level": "ALL"
+    },
+    "micrometer": {
+      "enabled": false
+    }
+  },
+  "proxy": {
+  },
+  "selfDiagnostics": {
+    "destination": "console",
+    "level": "TRACE"
+  }
+}
